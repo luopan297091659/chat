@@ -1,0 +1,11 @@
+[info]
+bmc_host = https://api.zencloud.zenlayer.net
+api_key = 20d20d18-8d43-4f55-84a4-0123ef090019
+lb_vm_zone_id = 201
+lb_vm_secgroupid = 49765989-5a9c-449e-a302-83fbc8292e6a
+lb_vm_rs1 = 192.168.11.3
+lb_vm_rs1 = 192.168.11.113
+pub_subnetwork_id = 4bb1804c-3ad2-44b7-844c-3d41af09d226
+pub_network_id = 3f8e08f3-aaf2-4705-956a-f268bde1837c
+pri_subnetwork_id = 2cdc661a-f9a1-4d1d-b6f2-d2a1efaf07ee
+pri_network_id = a4d4041c-8ff1-44d4-b941-8307b39788b9

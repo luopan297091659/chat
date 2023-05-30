@@ -3,7 +3,6 @@ package main
 import (
 	"chat/model"
 	"github.com/gin-gonic/gin"
-	//"io"
 	"log"
 	"os"
 	"time"
@@ -26,25 +25,6 @@ func init() {
 
 
 func main() {
-	//db,_ := libs.InitDB()
-	//lb_uuid,bool_res,_ := model.EsLBCheck(db)
-	//if bool_res {
-	//
-	//}
-
-	//var ss string = model.ChatGpt("arista交换机命令")
-	//log.Print("1111"+ss)
-
-	//r := gin.Default() //1.指定默认路由
-	//r.Use(cors.New(cors.Config{
-	//	AllowOrigins:  []string{"http://127.0.0.1:8080", "http://127.0.0.1:8000"},
-	//	AllowMethods:  []string{"GET", "POST", "PUT", "PATCH", "DELETE"},
-	//	//AllowHeaders:  []string{"Origin", "Content-Type", "Authorization"},
-	//}))
-	//r.GET("/api/lbverfyres", model.LbVerfyres)
-	//r.GET("/api/zoneverfy", model.SpecialZoneLbVerfy)
-	////r.GET("/api/ai", model.ChatGpt) {}
-	//r.Run(":8081") //3.监听端口
 
 	engine := gin.Default()
 	// 注册模板

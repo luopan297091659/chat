@@ -35,7 +35,7 @@ func ChatGpt(c *gin.Context, prompt string) string {
 }
 
 func AjaxTest(ctx *gin.Context) {
-	ctx.HTML(http.StatusOK, "ajax_test.html", nil)
+	ctx.HTML(http.StatusOK, "chat.html", nil)
 }
 
 func PostAjax(ctx *gin.Context) {

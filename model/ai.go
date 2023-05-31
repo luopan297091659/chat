@@ -8,7 +8,7 @@ import (
 	"log"
 )
 
-var token string = "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"
+var token string = ""
 
 func ChatGpt(c *gin.Context, prompt string) string {
 	client := openai.NewClient(token)

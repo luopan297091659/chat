@@ -32,6 +32,7 @@ func main() {
 	// 注册静态文件
 	engine.Static("./static", "static") // (relativePath, root string): 路径, 文件夹名称
 	engine.GET("/chat", model.AjaxTest)	// 获取请求页面
+	engine.GET("/", model.AjaxTest)
 	engine.POST("/post_ajax", model.PostAjax)
 
 	engine.Run(":9001")

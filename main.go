@@ -35,7 +35,7 @@ func main() {
 	engine.GET("/", model.AjaxTest)
 	engine.POST("/post_ajax", model.PostAjax)
 
-	engine.Run(":9001")
+	engine.Run(":9000")
 
 
 }
